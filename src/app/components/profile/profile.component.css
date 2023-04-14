@@ -1,3 +1,10 @@
+.column-left {
+  position: sticky;
+  top: 4rem;
+}
+
+
+
 .card-profile {
   width: 224.98px;
   height: 392.65px;
@@ -135,18 +142,18 @@ hr {
 .card-latest {
   width: 225px;
   height: 437px;
-  left: 142.04px;
-  top: 474.91px;
   background: #FFFFFF;
   border: 1px solid #E0DFDC;
   border-radius: 6px;
   margin-top: .5rem;
+
 }
 
 .sect {
   width: 90%;
   margin: 0 auto;
   margin-top: 1rem;
+
 }
 
 .card-latest .title {

@@ -1,0 +1,218 @@
+.all-feeds {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+
+.new-post {
+  width: 543px;
+  height: 117px;
+  background: #FFFFFF;
+  border: 1px solid #E0DFDC;
+  border-radius: 6px;
+}
+
+
+.add-post {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.add-post input {
+  width: 452px;
+  height: 47px;
+  background: #FFFFFF;
+  border: 1px solid #B2B2B2;
+  border-radius: 23.5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  color: #666666;
+  padding: 0 1rem;
+  outline: none;
+}
+
+.options ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  cursor: pointer;
+}
+
+li small {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+
+
+  color: #666666;
+}
+
+
+.card-feed {
+  width: 543px;
+  height: 690px;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  border-radius: 6px;
+}
+
+.card-header {
+
+  width: 90%;
+  margin: 0 auto;
+  padding: .5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-header .left {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.card-header .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header .info p {
+  margin: 5px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.card-header .info small {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.card-header .info span {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  margin: 5px 0;
+}
+
+.card-text {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.card-text p,
+.card-text p a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height, or 100% */
+  color: #6A6A6A;
+  text-decoration: none;
+}
+
+.card-text small {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  color: #0A66C2;
+  cursor: pointer;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.card-react {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.card-react .likes {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.card-react .likes span {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #606163;
+}
+
+.card-react .comments-shares {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.card-react .comments-shares span {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  text-align: right;
+  color: #606163;
+}
+
+hr {
+  width: 511.83px;
+  height: 0px;
+  left: 17.03px;
+  top: 619.5px;
+
+  border: 1px solid rgba(173, 171, 170, 0.5);
+}
+
+.card-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.card-option img {
+  width: 27.39px;
+  cursor: pointer;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -o-transition: all .3s ease;
+}
+
+.card-option img:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
