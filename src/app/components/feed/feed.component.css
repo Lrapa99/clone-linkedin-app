@@ -181,14 +181,7 @@ li small {
   color: #606163;
 }
 
-hr {
-  width: 511.83px;
-  height: 0px;
-  left: 17.03px;
-  top: 619.5px;
 
-  border: 1px solid rgba(173, 171, 170, 0.5);
-}
 
 .card-option {
   display: flex;
@@ -215,4 +208,75 @@ hr {
   -moz-transform: scale(1.1);
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
+}
+
+
+.order {
+  display: flex;
+  align-items: center;
+}
+
+.order span {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+  color: #666666;
+}
+
+hr {
+  width: 430px;
+  height: 0px;
+  border: 1px solid rgba(173, 171, 170, 0.5);
+}
+
+select {
+  color: #333;
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+select option {
+  background-color: #fff;
+  color: #444;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+select option:hover {
+  background-color: #d1d1d1;
+  color: #444;
+}
+
+
+select option:checked {
+  background-color: #f3f2ef;
+  color: #444;
+}
+
+
+select:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: #f3f2ef;
+  z-index: -1;
+}
+
+select:focus:before {
+  height: 3px;
+}
+
+select:hover {
+  background-color: #f5f5f5;
 }
