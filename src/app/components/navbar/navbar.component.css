@@ -5,11 +5,12 @@ header {
   display: flex;
   width: 100%;
   position: fixed;
+  top: 0;
   z-index: 999;
 }
 
 nav {
-  width: 80%;
+  width: 1128px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -18,23 +19,58 @@ nav {
 nav ul {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: .5rem;
+  padding: 0;
+
 }
 
 li {
   list-style: none;
 }
 
+nav .left img[alt="linkedin"] {
+  height: 33px;
+}
+
 nav .right {
   gap: 2rem;
 }
 
-nav .right li {
+
+ul.right li {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   cursor: pointer;
+}
+
+ul.right li:nth-child(1) img {
+  width: 29.1px;
+}
+
+ul.right li:nth-child(2) img {
+  width: 20.14px;
+}
+
+ul.right li:nth-child(3) img {
+  width: 20.01px;
+}
+
+ul.right li:nth-child(4) img {
+  width: 22.29px;
+}
+
+ul.right li:nth-child(5) img {
+  width: 19.99px;
+}
+
+ul.right li:nth-child(6) img[alt="profile"] {
+  width: 24.52px;
+}
+
+ul.right li:nth-child(7) img[alt="work"] {
+  width: 18.02px;
 }
 
 

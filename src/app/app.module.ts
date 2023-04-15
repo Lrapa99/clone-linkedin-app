@@ -4,9 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProfileComponent } from './components/profile/profile.component';
-import { PostsComponent } from './components/posts/posts.component';
 import { FeedComponent } from './components/feed/feed.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { OtherInfoComponent } from './components/other-info/other-info.component';
 
 // angular material
 
@@ -16,8 +16,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent,
     NavbarComponent,
     ProfileComponent,
-    PostsComponent,
-    FeedComponent
+    FeedComponent,
+    OtherInfoComponent
   ],
   imports: [
     BrowserModule,
