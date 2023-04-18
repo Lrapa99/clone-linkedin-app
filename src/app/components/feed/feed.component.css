@@ -67,6 +67,11 @@ li small {
 }
 
 
+.card {
+  max-width: 543px;
+}
+
+
 .card-feed {
   width: 543px;
   height: 690px;
