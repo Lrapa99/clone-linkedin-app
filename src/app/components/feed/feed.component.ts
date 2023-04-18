@@ -1,5 +1,6 @@
 import { Component, OnInit, ChangeDetectorRef } from '@angular/core';
-import * as moment from 'moment';
+import moment from 'moment-es6';
+
 
 
 @Component({
