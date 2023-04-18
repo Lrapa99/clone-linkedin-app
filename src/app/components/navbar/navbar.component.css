@@ -7,11 +7,13 @@ header {
   position: fixed;
   top: 0;
   z-index: 999;
+
 }
 
 nav {
   width: 1128px;
   margin: 0 auto;
+  margin-top: 1rem;
   display: flex;
   justify-content: space-between;
 }
@@ -89,7 +91,7 @@ ul.right li:nth-child(7) img[alt="work"] {
   height: 33.97px;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   gap: .5rem;
   padding-left: 1rem;
 }

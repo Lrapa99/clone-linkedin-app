@@ -8,6 +8,8 @@ import { FeedComponent } from './components/feed/feed.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { OtherInfoComponent } from './components/other-info/other-info.component';
 
+import { FormsModule } from '@angular/forms';
+
 // angular material
 
 
@@ -22,6 +24,7 @@ import { OtherInfoComponent } from './components/other-info/other-info.component
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
